@@ -40,7 +40,8 @@ function renderTodoList() {
 		<div>${name}</div>
 		<div>${dueDate}</div>
 		<button class="delete_todo_button js_delete_todo_button" onclick="
-			todoList.splice(todoList[i], 1);
+			todoList.splice(${i}, 1);
+			renderTodoList();
 		">Delete</button>
 		
 		`;
@@ -81,17 +82,3 @@ function addTodo() {
 
 	renderTodoList();
 }
-
-function deleteButton() {
-	for (let i = 0; i < todoList.length; i++) {
-		const todoObject = todoList[i];
-		console.log(todoObject);
-	}
-	renderTodoList();
-}
-
-
-//onclick="
-// todoList.splice(${i}, 1);
-// renderTodoList();
-// "
