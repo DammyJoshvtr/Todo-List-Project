@@ -15,13 +15,20 @@ const todoList = [{
 
 renderTodoList();
 
+// document.body.addEventListener('keydown', (event) => {
+// 	if (event.key === 'enter') {
+// 		console.log('you pressed enter key');
+// 		addTodo();
+// 	}
+// });
+
 document.querySelectorAll('.js_add_todo_button')
 	.forEach((addButton, index) => {
 		addButton.addEventListener('click', () => {
 			console.log(index);
 			addTodo();
 		})
-	})
+	});
 
 
 function renderTodoList() {
@@ -82,3 +89,7 @@ function addTodo() {
 
 	renderTodoList();
 }
+
+// function deleteTodo() {
+// 	console.log(todoList.splice(todoObject, 1));
+// }

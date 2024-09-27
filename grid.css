@@ -1,6 +1,3 @@
-body{
-    font-family: Arial;
-}
 
 .todo_grid,
 .todo_input_grid{
@@ -39,3 +36,4 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
