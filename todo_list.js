@@ -90,6 +90,3 @@ function addTodo() {
 	renderTodoList();
 }
 
-// function deleteTodo() {
-// 	console.log(todoList.splice(todoObject, 1));
-// }

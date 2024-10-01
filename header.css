@@ -10,6 +10,10 @@
   right: 0;
   left: 0;
   z-index: 100;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(223, 223, 223);
 }
 
 .left_section{
@@ -23,12 +27,17 @@
 }
 
 .middle_section{
+  flex: 1;
   display: flex;
   align-items: center;
+  max-width: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .input{
-  width: 400px;
+  flex: 1;
+  width: 0;
   height: 30px;
 
   border-radius: 10px;
@@ -42,4 +51,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.hamburger_menu {
+  display: flex;
+  width: 30px;
+  margin-right: 10px;
 }
