@@ -43,11 +43,13 @@
   border-radius: 10px;
   border-width: 1px;
   font-size: 15px;
+
+  padding-left: 15px;
 }
 
 .right_section{
   width: 150px;
-  margin-right: 10px;
+  margin-right: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
