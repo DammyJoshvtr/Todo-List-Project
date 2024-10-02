@@ -2,15 +2,18 @@
 <html>
     <head>
         <title>Todo List</title>
-        <link rel="stylesheet" href="grid.css">
-        <link rel="stylesheet" href="general.css">
-        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="styles/grid.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
       <div class="header">
         <div class="left_section">
-          <img src="icons/hamburger-menu.svg" class="hamburger_menu">
+          <div class="hamburger" id="hamburger">
+            &#9776;
+          </div>
           <p class="title">Todo List</p>
         </div>
 
@@ -24,6 +27,12 @@
         </div>
       </div>
 			
+      <div class="sidebar" id="sidebar">
+        <a href="">Home</a>
+        <a href="">Service</a>
+        <a href="">Contacts</a>
+        <a href="">Home</a>
+      </div>
 
       <div class="todo_input_grid">
         <input placeholder="Todo Name" class="js_name_input name_input">
@@ -36,6 +45,8 @@
 
       <div class="js_todo_list todo_grid"></div>
 
-      <script src="todo_list.js"></script>
+      <script src="scripts/main_object.js"></script>
+      <script src="scripts/sidebar.js"></script>
+      <script src="scripts/todo_list.js"></script>
     </body>
 </html>

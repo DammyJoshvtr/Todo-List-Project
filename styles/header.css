@@ -53,8 +53,9 @@
   justify-content: space-between;
 }
 
-.hamburger_menu {
-  display: flex;
-  width: 30px;
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
   margin-right: 10px;
 }
+

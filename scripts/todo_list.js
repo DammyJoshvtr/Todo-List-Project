@@ -1,26 +1,4 @@
-const inputElement = document.querySelector('.js_name_input');
-
-const dateInputElement = document.querySelector('.js_due_date_input');
-
-
-const todoList = [{
-	name: 'make dinner',
-	dueDate: '2024-12-22',
-},
-{
-	name: 'wash dishes',
-	dueDate: '2022-12-22'
-}];
-
-
 renderTodoList();
-
-// document.body.addEventListener('keydown', (event) => {
-// 	if (event.key === 'enter') {
-// 		console.log('you pressed enter key');
-// 		addTodo();
-// 	}
-// });
 
 document.querySelectorAll('.js_add_todo_button')
 	.forEach((addButton, index) => {
@@ -59,14 +37,6 @@ function renderTodoList() {
 			.innerHTML = todoListHTML;
 
 }
-
-
-	// document.querySelector('.js_delete_todo_button')
-	// 	.forEach((deleteButton, index) => {
-	// 		deleteButton.addEventListener('click', () => {
-	// 			deleteTodo();
-	// 		})
-	// 	})
 
 
 function addTodo() {
