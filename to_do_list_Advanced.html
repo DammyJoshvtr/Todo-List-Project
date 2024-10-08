@@ -18,7 +18,8 @@
         </div>
 
         <div class="middle_section">
-          <input type="text" placeholder="Search" class="input">
+          <input type="text" placeholder="Search" class="input " id="searchBox">
+          <ul class="searchbar" id="result"></ul>
         </div>
 
         <div class="right_section">
@@ -34,12 +35,14 @@
         <a href="">About Us</a>
       </div>
 
-      <div class="todo_input_grid">
-        <input placeholder="Todo Name" class="js_name_input name_input">
-        <input type="date" class="js_due_date_input due_date_input">
-
-        <button 
-        class="add_todo_button js_add_todo_button">Add</button>
+      <div class="grid_container">  
+        <div class="todo_input_grid">
+          <input placeholder="Todo Name" class="js_name_input name_input">
+          <input type="date" class="js_due_date_input due_date_input">
+  
+          <button 
+          class="add_todo_button js_add_todo_button">Add</button>
+        </div>
       </div>
 			
 
@@ -47,6 +50,11 @@
 
       <script src="scripts/main_object.js"></script>
       <script src="scripts/sidebar.js"></script>
+      <script src="scripts/searchbar.js"></script>
       <script src="scripts/todo_list.js"></script>
     </body>
 </html>
+
+<!-- tried to do use box-shadow but didnt work or i have no idea -->
+ <!-- tried to center to grid_container div, but failed -->
+<!-- JavaScript input search bar is not working  -->
