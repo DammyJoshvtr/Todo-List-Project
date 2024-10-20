@@ -1,8 +1,14 @@
-
-.todo_grid,
 .todo_input_grid{
     display: grid;
     grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo_grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px 100px;
     column-gap: 10px;
     row-gap: 10px;
     align-items: center;
@@ -37,3 +43,12 @@
     padding-bottom: 10px;
 }
 
+.complete_todo_button{
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
