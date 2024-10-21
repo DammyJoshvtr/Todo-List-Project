@@ -14,7 +14,7 @@ function renderTodoList() {
 
 	for (let i = 0; i < todoList.length; i++) {
 		const todoObject = todoList[i];
-		console.log(i);
+		//console.log(i);
 		//const name = todoObject.name;
 		//const dueDate = todoObject.dueDate;
 

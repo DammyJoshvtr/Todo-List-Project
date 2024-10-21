@@ -11,3 +11,5 @@ const todoList = [{
 	name: 'wash dishes',
 	dueDate: '2022-12-22'
 }];
+
+const completedList = [];
