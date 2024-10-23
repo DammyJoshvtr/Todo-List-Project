@@ -1,9 +1,8 @@
-const inputElement = document.querySelector('.js_name_input');
+export const inputElement = document.querySelector('.js_name_input');
 
-const dateInputElement = document.querySelector('.js_due_date_input');
+export const dateInputElement = document.querySelector('.js_due_date_input');
 
-
-const todoList = [{
+export const todoList = [{
 	name: 'make dinner',
 	dueDate: '2024-12-22',
 },
